@@ -13,7 +13,7 @@ const protocols = ref<Protocol[]>([
   {
     name: 'Base64 加解密示例',
     scheme:
-      'venom://codec/rT8z28Xznztze4/H5kYPvyu24GwluxUnd4R/CHy/lLYuFi9ye3IwXg09dGUu6vbIIlQcaaTkDY9E3rofK4Hpke5E1d6Nv9DQIo3zt8/UtUM9ybb/Il5AxAS7IWC8qGt0S7SlRzzu74d9BxzkNEx+xYsPX8k9JkvrIG3YuKIELiMCW9lqfLMePj18P0LF5Cjp1o+vRn0ZJEM2uCqedCoZim78yc4c6CKUGBbusJBk/HAt0SZUPrReCLd8fYkFJ/udIAGJr+Bys//cr6QwHxS6iv0yNKn2A0pMZhMjHHHIfEWHZCDarEvLLe/jSUNsnY2mvcp9YYNP/eCkA+Wv3RJJLs5swRM6NxmgVzLtr9+tPtSeYLKRU3wBV7bPrgkiaNEtT1u5vjaZik3TeuTNr8IVln1qkpBeb5x5LuLBCUnUSBvkbWg8TBkXbYd4+Es3+oXwNSiyN30WO8RuqBUwzpFNQ7/Vk34nNdYbYH4LxfTa+GWCDoNPlC/zdScAgqQcQ9IwA3wqCcMPBPskwhLbN+5cGpg1sTYy+sExZLeBKZ9kVc12YtBxDK0jtywX+r39J1pnVLhgUgFW2V4sM826xNA3d1Ut+lxzmmzfrB0hhMEprb2T3qEGFIvw11L',
+      'venom://codec/d6ibUgUUYXbMtESthIsbHZZipDBa8n8N8fPK53UkpFn5Mr9edEpc3ZyealQV+0LN9sDC50UvT2vs3kA+U9alq5k69t19vu/yWVuxD48qEkjPnzle23+Yhx71Rloxgh9mLIfYdIcTWprM+DgLaj2E6isx0BT1glkcapK6wVA9e2JXkhZbt5tVAzHPzQUpoyQF3SQr+Zt3wn+C8708YhBOOpQyPvVqsxOfl78K1CDNlP/Je7N5tbgm0ZKd3y9LnHrBzF23EgSygdLC/2ePcyQ9b95b8Ye6i1aTIV3wsC7wMsvPJAGV6RGFz/4YZFcKF1yQQW9Yj7Zzxlt480Otq1tKdRe65DDWSuvIq4Tvzc7E/mv3RwdiE+6Fi257lseggCQyXsGofUxsNpsu41WlAAOWA3gMpUneVqy6KLVawxcwl/KYLOmGb4OdtDNPIe9fIJAV3wbblrxPKi/9H1t+13Lm82wR1uGDZf7hyVNMSB9tbWxZDKtm5+KzaLUTQX76bOehuf/7uMoRNU+kCum+MpS+K6mu00Y3ZYsNJkaU+pugZXGIRrZMhaxelf4wqGSivObPJ6+FU85uFr6hO2ASD2XKVfPrvTE46Hfom5NUdvI=',
     description: '演示 Base64 编码和解码工作流。点击加载示例配置，快速体验编解码功能。',
     icon: '🔄',
     color: '#3b82f6',
