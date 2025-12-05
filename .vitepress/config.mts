@@ -4,6 +4,11 @@ export default defineConfig({
     title: "Venom (毒液)",
     description: "致命精准的红队作战兵器。模块化集成资产发现、漏扫与利用，重新定义渗透测试工作流 (Workflow) 的新一代安全平台。 ",
     lastUpdated: true,
+    markdown: {
+        image: {
+            lazyLoading: true,
+        },
+    },
     themeConfig: {
         logo: { src: "/logo.png", width: 24, height: 24 },
 
@@ -39,8 +44,12 @@ export default defineConfig({
                 text: "简介",
                 collapsed: false,
                 items: [
-                    { text: "什么是Venom?", link: "/what-is-venom" },
-                    { text: "快速开始", link: "/getting-started" },
+                    { text: "🎯 什么是Venom？", link: "/what-is-venom" },
+                    { text: "🚀 快速开始", link: "/getting-started" },
+                    { text: "⚡ 核心功能", link: "/core-function" },
+                    { text: "🤝 问题反馈", link: "/problem-feedback" },
+                    { text: "💕 FAQ", link: "/faq" },
+                    { text: "⚠️ 免责声明", link: "/disclaimer" },
                 ],
             },
             {
@@ -50,6 +59,30 @@ export default defineConfig({
                 items: [
                     { text: "端口扫描", link: "port_scan" },
                     { text: "空间测绘", link: "space_mapping" },
+                    {
+                        text: "数据处理",
+                        collapsed: true,
+                        items: [
+                            { text: "JSON提取", link: "json_extract" },
+                            { text: "数据对比", link: "data_compare" },
+                            { text: "编码解码", link: "codec" },
+                        ],
+                    },
+                    {
+                        text: "Web Tools",
+                        collapsed: true,
+                        items: [
+                            { text: "302跳转", link: "302_redirect" },
+                            { text: "文件管理", link: "file_management" },
+                            { text: "Dnslog", link: "dnslog" },
+                        ],
+                    },
+                    { text: "小程序反编译", link: "wxapkg_decompile" },
+                    {
+                        text: "其他",
+                        collapsed: true,
+                        items: [{ text: "快捷方式", link: "shortcut" }],
+                    },
                 ],
             },
         ],
