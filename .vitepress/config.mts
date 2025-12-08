@@ -10,35 +10,7 @@ export default defineConfig({
         },
     },
     themeConfig: {
-        logo: { src: "/logo.png", width: 24, height: 24 },
 
-        nav: [{ text: "指南", link: "/getting-started", activeMatch: "/.+" }],
-
-        search: {
-            provider: "local",
-            options: {
-                translations: {
-                    button: {
-                        buttonText: "搜索文档",
-                        buttonAriaLabel: "搜索文档",
-                    },
-                    modal: {
-                        noResultsText: "无法找到相关结果",
-                        resetButtonTitle: "清除查询条件",
-                        displayDetails: "显示详情",
-                        footer: {
-                            selectText: "选择",
-                            selectKeyAriaLabel: "Enter 键",
-                            navigateText: "切换",
-                            navigateUpKeyAriaLabel: "向上箭头",
-                            navigateDownKeyAriaLabel: "向下箭头",
-                            closeText: "关闭",
-                            closeKeyAriaLabel: "Esc 键",
-                        },
-                    },
-                },
-            },
-        },
         sidebar: [
             {
                 text: "简介",
@@ -72,6 +44,7 @@ export default defineConfig({
                         text: "Web Tools",
                         collapsed: true,
                         items: [
+                            { text: "部署教程", link: "install_vnx" },
                             { text: "302跳转", link: "302_redirect" },
                             { text: "文件管理", link: "file_management" },
                             { text: "Dnslog", link: "dnslog" },
@@ -86,6 +59,36 @@ export default defineConfig({
                 ],
             },
         ],
+
+        logo: { src: "/logo.png", width: 24, height: 24 },
+
+        nav: [{ text: "指南", link: "/getting-started", activeMatch: "/.+" }],
+
+        search: {
+            provider: "local",
+            options: {
+                translations: {
+                    button: {
+                        buttonText: "搜索文档",
+                        buttonAriaLabel: "搜索文档",
+                    },
+                    modal: {
+                        noResultsText: "无法找到相关结果",
+                        resetButtonTitle: "清除查询条件",
+                        displayDetails: "显示详情",
+                        footer: {
+                            selectText: "选择",
+                            selectKeyAriaLabel: "Enter 键",
+                            navigateText: "切换",
+                            navigateUpKeyAriaLabel: "向上箭头",
+                            navigateDownKeyAriaLabel: "向下箭头",
+                            closeText: "关闭",
+                            closeKeyAriaLabel: "Esc 键",
+                        },
+                    },
+                },
+            },
+        },
 
         socialLinks: [{ icon: "github", link: "https://github.com/Zcentury/Venom" }],
 
