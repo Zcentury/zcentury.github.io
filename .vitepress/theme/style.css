@@ -92,3 +92,13 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+/* Fix NImage Preview Toolbar Spacing */
+.n-image-preview-toolbar {
+  gap: 12px;
+}
+.n-image-preview-toolbar .n-base-icon {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}

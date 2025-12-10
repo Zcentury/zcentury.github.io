@@ -8,6 +8,26 @@ export default defineConfig({
         image: {
             lazyLoading: true,
         },
+        config: (md) => {
+            md.renderer.rules.image = (tokens, idx, options, env, self) => {
+                const token = tokens[idx];
+                const src = token.attrGet("src");
+                const alt = token.content;
+                return `<n-image src="${src}" alt="${alt}" lazy />`;
+            };
+        },
+    },
+    vue: {
+        template: {
+            transformAssetUrls: {
+                "n-image": ["src"],
+            },
+        },
+    },
+    vite: {
+        ssr: {
+            noExternal: ["naive-ui"],
+        },
     },
     themeConfig: {
 
