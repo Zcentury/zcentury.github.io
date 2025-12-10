@@ -26,7 +26,7 @@ export default defineConfig({
     },
     vite: {
         ssr: {
-            noExternal: ["naive-ui"],
+            noExternal: ["naive-ui", "vueuc", "date-fns"],
         },
     },
     themeConfig: {
